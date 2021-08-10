@@ -1,7 +1,5 @@
-## motivational mesages program
-
 # READ ME FIRST
-==============
+===============
 
 ## **What is this program?**
 ---------------------------
