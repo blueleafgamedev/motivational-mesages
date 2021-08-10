@@ -47,7 +47,7 @@ for(let message in infiniteWisdom) {
     dailyMessage.push(infiniteWisdom[message][generateRandomNumber(infiniteWisdom[message])])
 }
 
-const formattedMessage = `Today is ${today.getMonth() + 1}/${today.getDate()}/${today.getFullYear()}\nThe time is ${today.getHours()}:${today.getMinutes()}\n
+const formattedMessage = `Today is ${today.getMonth() + 1}/${today.getDate()}/${today.getFullYear()}\nThe time is ${today.getHours()}:${(today.getMinutes()<10?'0':'') + today.getMinutes()}\n
 YOUR DAILY MOTIVATION\n=====================\nThink about this: ${dailyMessage[0]}\nPossible goal: ${dailyMessage[1]}\nPOWER STATEMENT: ${dailyMessage[2]}\n`;
 
 if(today.getHours() < 12) {
