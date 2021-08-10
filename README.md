@@ -1,5 +1,4 @@
 # READ ME FIRST
-===============
 
 ## **What is this program?**
 ---------------------------
