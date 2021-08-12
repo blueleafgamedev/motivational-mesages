@@ -14,4 +14,6 @@ My program greets me, tells me the date and time, and then gives me a daily ques
 ## **How do I use it?**
 ----------------------
 
-An idea I have is to have this script run every time I open git, as an initial brain charge and motivator. I am still working on this part, but I am pretty sure I will figure it out soon. Once I do, I will place an update in this file and you can feel free to use it the same way I do or customize it to suit your needs! You can also feel free to change up any of the code to suit your needs! Let me know what you think!
+I added this to my ~/.bashrc file so that it loads everytime I start my terminal. I did this by using node and its absolute path. If you would like to do this too, just use $ realpath filename.js to locate the entire path to your file. You can then add it to your ~/.bashrc by using the following command: echo "node filePath" >> ~/.bashrc. For example, I added mine like this echo "node /home/travis/Projects/motivational-messages/script.js" >> ~/.bashrc
+
+If you need any help, please don't hesitate to reach out! Also, feel free to modify the code to suit your needs :)
