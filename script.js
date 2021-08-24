@@ -6,6 +6,7 @@ const generateRandomNumber = (num) => {
     return Math.floor(Math.random() * num.length);
 };
 
+//three sources of held within an object
 const infiniteWisdom = {
     dailyQuestion: ['When was the last time you tried something new?', 'What gets you excited about life?',
     'Do you ask enough questions or do you settle for what you know?', 'Who do you love and what are you doing about it?',
@@ -47,16 +48,16 @@ for(let message in infiniteWisdom) {
     dailyMessage.push(infiniteWisdom[message][generateRandomNumber(infiniteWisdom[message])])
 }
 
-const formattedMessage = `Today is ${today.getMonth() + 1}/${today.getDate()}/${today.getFullYear()}
-The time is ${today.getHours()}:${(today.getMinutes()<10?'0':'') + today.getMinutes()}\n
-YOUR DAILY MOTIVATION\n=====================\nThink about this: ${dailyMessage[0]}\nPossible goal: ${dailyMessage[1]}\nPOWER STATEMENT: ${dailyMessage[2]}\n`;
+//formatted message for ~./bashrc
+const formattedMessage = `YOUR DAILY MOTIVATION\n=====================\nThink about this: ${dailyMessage[0]}\nPossible goal: ${dailyMessage[1]}\nPOWER STATEMENT: ${dailyMessage[2]}\n`;
 
+//statements to greet you dependent upon the time of day.
 if(today.getHours() < 12) {
-    console.log(`Good morning ${user}!\n${formattedMessage}`);
+    console.log(`Good Morning ${user}!\n\n${formattedMessage}`);
 }
 else if(today.getHours() > 12 && today.getHours() <= 16) {
-    console.log(`Good afternoon ${user}!\n${formattedMessage}`);
+    console.log(`Good Afternoon ${user}!\n\n${formattedMessage}`);
 }
 else {
-    console.log(`Good evening ${user}!\n${formattedMessage}`);
+    console.log(`Good Evening ${user}!\n\n${formattedMessage}`);
 }
