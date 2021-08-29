@@ -21,4 +21,4 @@ Below is an example of how the program looks from my terminal :)
 
 ![Example](/IMG/screenshot3.png)
 
---Additional examples can be found in the IMG folder--
+---Additional examples can be found in the IMG folder---
