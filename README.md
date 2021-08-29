@@ -15,6 +15,7 @@ I added this to my ~/.bashrc file so that it loads everytime I start my terminal
 
 If you need any help, please don't hesitate to reach out! Also, feel free to modify the code to suit your needs :)
 
+
 Below is an example of how the program looks from my terminal :)
 ---
 
