@@ -17,3 +17,6 @@ My program greets me, tells me the date and time, and then gives me a daily ques
 I added this to my ~/.bashrc file so that it loads everytime I start my terminal. I did this by using node and its absolute path. If you would like to do this too, just use $ realpath filename.js to locate the entire path to your file. You can then add it to your ~/.bashrc by using the following command: echo "node filePath" >> ~/.bashrc. For example, I added mine like this echo "node /home/travis/Projects/motivational-messages/script.js" >> ~/.bashrc
 
 If you need any help, please don't hesitate to reach out! Also, feel free to modify the code to suit your needs :)
+
+![Example 1]
+(./IMG/screenshot1.png)
