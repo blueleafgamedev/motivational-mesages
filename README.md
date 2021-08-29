@@ -7,7 +7,7 @@ It was originally named mixed-messages, but I chose to call it motivational mess
 
 ## **What does it do?**
 
-My program greets me, tells me the date and time, and then gives me a daily question, daily goal idea, and a daily POWER STATEMENT. I really wanted to promote positivity with this program because programming can be difficult. Not to mention, there is a lot of deep thought involved. All three of these messages that I receive after the initial greeting provoke deep thought and this is exactly what I wanted.
+My program greets me with a good morning, good afternoon, or good evening (dependint on the time of day) and then gives me a daily question, daily goal idea, and a daily POWER STATEMENT. I really wanted to promote positivity with this program because programming can be difficult. Not to mention, there is a lot of deep thought involved. All three of these messages that I receive after the initial greeting provoke deep thought and this is exactly what I wanted.
 
 ## **How do I use it?**
 
