@@ -55,7 +55,7 @@ const formattedMessage = `YOUR DAILY MOTIVATION\n=====================\nThink ab
 if(today.getHours() < 12) {
     console.log(`Good Morning ${user}!\n\n${formattedMessage}`);
 }
-else if(today.getHours() > 12 && today.getHours() <= 16) {
+else if(today.getHours() >= 12 && today.getHours() <= 16) {
     console.log(`Good Afternoon ${user}!\n\n${formattedMessage}`);
 }
 else {
